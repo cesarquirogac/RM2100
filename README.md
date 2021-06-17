@@ -5,3 +5,444 @@ https://forum.openwrt.org/t/new-xiaomi-router-ac2100/48101/383
 https://forum.openwrt.org/t/xiaomi-redmi-ac2100-and-5ghz-networks/71890/5
 
 https://forum.openwrt.org/t/new-xiaomi-router-ac2100/48101/584
+
+
+
+
+Jun 17 15:22:08 syslogd started: BusyBox v1.24.2
+Jun 17 15:22:08 RM2100: firmware version: 3.4.3.9-099_dd87cb9
+Jun 17 15:22:08 kernel: klogd started: BusyBox v1.24.2 (2020-11-27 11:18:50 UTC)
+Jun 17 15:22:08 kernel: Linux version 3.4.113 (padavan@hms) (gcc version 7.4.0 (crosstool-NG 1.24.0) ) #6 SMP Fri Nov 27 11:37:19 UTC 2020
+Jun 17 15:22:08 kernel: MediaTek SoC: MT7621A, RevID: 0103, RAM: DDR3, XTAL: 40MHz
+Jun 17 15:22:08 kernel: CPU/OCP/SYS frequency: 880/293/220 MHz
+Jun 17 15:22:08 kernel: prom memory:128MB
+Jun 17 15:22:08 kernel: CPU revision is: 0001992f (MIPS 1004Kc)
+Jun 17 15:22:08 kernel: Determined physical RAM map:
+Jun 17 15:22:08 kernel:  memory: 08000000 @ 00000000 (usable)
+Jun 17 15:22:08 kernel: Zone PFN ranges:
+Jun 17 15:22:08 kernel:   Normal   0x00000000 -> 0x00008000
+Jun 17 15:22:08 kernel: Movable zone start PFN for each node
+Jun 17 15:22:08 kernel: Early memory PFN ranges
+Jun 17 15:22:08 kernel:     0: 0x00000000 -> 0x00008000
+Jun 17 15:22:08 kernel: On node 0 totalpages: 32768
+Jun 17 15:22:08 kernel: free_area_init_node: node 0, pgdat 80331560, node_mem_map 81000000
+Jun 17 15:22:08 kernel:   Normal zone: 256 pages used for memmap
+Jun 17 15:22:08 kernel:   Normal zone: 0 pages reserved
+Jun 17 15:22:08 kernel:   Normal zone: 32512 pages, LIFO batch:7
+Jun 17 15:22:08 kernel: Detected 3 available secondary CPU(s)
+Jun 17 15:22:08 kernel: Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+Jun 17 15:22:08 kernel: Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+Jun 17 15:22:08 kernel: MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+Jun 17 15:22:08 kernel: PERCPU: Embedded 7 pages/cpu @81103000 s5952 r8192 d14528 u32768
+Jun 17 15:22:08 kernel: pcpu-alloc: s5952 r8192 d14528 u32768 alloc=8*4096
+Jun 17 15:22:08 kernel: pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jun 17 15:22:08 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Jun 17 15:22:08 kernel: Kernel command line: console=ttyS0,115200n8 root=/dev/mtdblock4 rootfstype=squashfs
+Jun 17 15:22:08 kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Jun 17 15:22:08 kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jun 17 15:22:08 kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Jun 17 15:22:08 kernel: Writing ErrCtl register=00003118
+Jun 17 15:22:08 kernel: Readback ErrCtl register=00003118
+Jun 17 15:22:08 kernel: Memory: 126180k/131072k available (2737k kernel code, 4892k reserved, 529k data, 248k init, 0k highmem)
+Jun 17 15:22:08 kernel: Hierarchical RCU implementation.
+Jun 17 15:22:08 kernel: NR_IRQS:72
+Jun 17 15:22:08 kernel: MIPS GIC RevID: 3.0
+Jun 17 15:22:08 kernel: Setting up vectored interrupts
+Jun 17 15:22:08 kernel: console [ttyS0] enabled
+Jun 17 15:22:08 kernel: Calibrating delay loop... 577.53 BogoMIPS (lpj=1155072)
+Jun 17 15:22:08 kernel: pid_max: default: 32768 minimum: 301
+Jun 17 15:22:08 kernel: Mount-cache hash table entries: 512
+Jun 17 15:22:08 kernel: Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+Jun 17 15:22:08 kernel: Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+Jun 17 15:22:08 kernel: MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+Jun 17 15:22:08 kernel: CPU revision is: 0001992f (MIPS 1004Kc)
+Jun 17 15:22:08 kernel: Synchronize counters for CPU 1: done.
+Jun 17 15:22:08 kernel: Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+Jun 17 15:22:08 kernel: Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+Jun 17 15:22:08 kernel: MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+Jun 17 15:22:08 kernel: CPU revision is: 0001992f (MIPS 1004Kc)
+Jun 17 15:22:08 kernel: Synchronize counters for CPU 2: done.
+Jun 17 15:22:08 kernel: Primary instruction cache 32kB, VIPT, 4-way, linesize 32 bytes.
+Jun 17 15:22:08 kernel: Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+Jun 17 15:22:08 kernel: MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+Jun 17 15:22:08 kernel: CPU revision is: 0001992f (MIPS 1004Kc)
+Jun 17 15:22:08 kernel: Synchronize counters for CPU 3: done.
+Jun 17 15:22:08 kernel: Brought up 4 CPUs
+Jun 17 15:22:08 kernel: NET: Registered protocol family 16
+Jun 17 15:22:08 kernel: FPU Affinity set after 4664 emulations
+Jun 17 15:22:08 kernel: bio: create slab <bio-0> at 0
+Jun 17 15:22:08 kernel: PCI host bridge to bus 0000:00
+Jun 17 15:22:08 kernel: pci_bus 0000:00: root bus resource [mem 0x60000000-0x6fffffff]
+Jun 17 15:22:08 kernel: pci_bus 0000:00: root bus resource [io  0x1e160000-0x1e16ffff]
+Jun 17 15:22:08 kernel: pci 0000:00:00.0: [0e8d:0801] type 01 class 0x060400
+Jun 17 15:22:08 kernel: pci 0000:00:00.0: reg 0x10: [mem 0x00000000-0x7fffffff]
+Jun 17 15:22:08 kernel: pci 0000:00:00.0: supports D1
+Jun 17 15:22:08 kernel: pci 0000:00:00.0: PME# supported from D0 D1 D3hot
+Jun 17 15:22:08 kernel: pci 0000:00:01.0: [0e8d:0801] type 01 class 0x060400
+Jun 17 15:22:08 kernel: pci 0000:00:01.0: reg 0x10: [mem 0x00000000-0x7fffffff]
+Jun 17 15:22:08 kernel: pci 0000:00:01.0: supports D1
+Jun 17 15:22:08 kernel: pci 0000:00:01.0: PME# supported from D0 D1 D3hot
+Jun 17 15:22:08 kernel: pci 0000:00:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+Jun 17 15:22:08 kernel: pci 0000:00:01.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+Jun 17 15:22:08 kernel: pci 0000:01:00.0: [14c3:7615] type 00 class 0x000280
+Jun 17 15:22:08 kernel: pci 0000:01:00.0: reg 0x10: [mem 0x00000000-0x000fffff 64bit]
+Jun 17 15:22:08 kernel: pci 0000:02:00.0: [14c3:7603] type 00 class 0x028000
+Jun 17 15:22:08 kernel: pci 0000:02:00.0: reg 0x10: [mem 0x00000000-0x000fffff]
+Jun 17 15:22:08 kernel: pci 0000:02:00.0: PME# supported from D0 D3hot D3cold
+Jun 17 15:22:08 kernel: pci 0000:00:00.0: BAR 0: can't assign mem (size 0x80000000)
+Jun 17 15:22:08 kernel: pci 0000:00:01.0: BAR 0: can't assign mem (size 0x80000000)
+Jun 17 15:22:08 kernel: pci 0000:00:00.0: BAR 8: assigned [mem 0x60000000-0x600fffff]
+Jun 17 15:22:08 kernel: pci 0000:00:01.0: BAR 8: assigned [mem 0x60100000-0x601fffff]
+Jun 17 15:22:08 kernel: pci 0000:01:00.0: BAR 0: assigned [mem 0x60000000-0x600fffff 64bit]
+Jun 17 15:22:08 kernel: pci 0000:00:00.0: PCI bridge to [bus 01-01]
+Jun 17 15:22:08 kernel: pci 0000:00:00.0:   bridge window [mem 0x60000000-0x600fffff]
+Jun 17 15:22:08 kernel: pci 0000:02:00.0: BAR 0: assigned [mem 0x60100000-0x601fffff]
+Jun 17 15:22:08 kernel: pci 0000:00:01.0: PCI bridge to [bus 02-02]
+Jun 17 15:22:08 kernel: pci 0000:00:01.0:   bridge window [mem 0x60100000-0x601fffff]
+Jun 17 15:22:08 kernel: PCI: Enabling device 0000:00:00.0 (0000 -> 0002)
+Jun 17 15:22:08 kernel: PCI: Enabling device 0000:00:01.0 (0000 -> 0002)
+Jun 17 15:22:08 kernel: Switching to clocksource MIPS
+Jun 17 15:22:08 kernel: NET: Registered protocol family 2
+Jun 17 15:22:08 kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jun 17 15:22:08 kernel: TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Jun 17 15:22:08 kernel: TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+Jun 17 15:22:08 kernel: TCP: Hash tables configured (established 4096 bind 4096)
+Jun 17 15:22:08 kernel: TCP: reno registered
+Jun 17 15:22:08 kernel: UDP hash table entries: 128 (order: 0, 4096 bytes)
+Jun 17 15:22:08 kernel: NET: Registered protocol family 1
+Jun 17 15:22:08 kernel: PCI: CLS 32 bytes, default 32
+Jun 17 15:22:08 kernel: 4 CPUs re-calibrate udelay (lpj = 1167360)
+Jun 17 15:22:08 kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jun 17 15:22:08 kernel: msgmni has been set to 246
+Jun 17 15:22:08 kernel: io scheduler noop registered (default)
+Jun 17 15:22:08 kernel: Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+Jun 17 15:22:08 kernel: serial8250: ttyS0 at MMIO 0x1e000c00 (irq = 34) is a 16550A
+Jun 17 15:22:08 kernel: Ralink GPIO driver initialized. Number of GPIO: 64, GPIO mode: 000A05A8
+Jun 17 15:22:08 kernel: loop: module loaded
+Jun 17 15:22:08 kernel: MediaTek NAND driver init, version v2.1
+Jun 17 15:22:08 kernel: MTK NFI: NAND ID [C8 D1, 80 95 40 7F]
+Jun 17 15:22:08 kernel: MTK NFI: NAND chip found in MTK table: F59L1G81MB
+Jun 17 15:22:08 kernel: NAND device: Manufacturer ID: 0xc8, Chip ID: 0xd1 (ESMT NAND 128MiB 3,3V 8-bit), 128MiB, page size: 2048, OOB size: 64
+Jun 17 15:22:08 kernel: Scanning device for bad blocks
+Jun 17 15:22:08 kernel: MTK NFI: success load FACT_BBT from block 1023
+Jun 17 15:22:08 kernel: Creating 9 MTD partitions on "MT7621-NAND":
+Jun 17 15:22:08 kernel: 0x000000000000-0x000000080000 : "Bootloader"
+Jun 17 15:22:08 kernel: 0x000000080000-0x000000100000 : "BootEnv"
+Jun 17 15:22:08 kernel: 0x000000100000-0x000000600000 : "Factory"
+Jun 17 15:22:08 kernel: 0x000000600000-0x000000740000 : "Kernel"
+Jun 17 15:22:08 kernel: 0x000000740000-0x000003600000 : "RootFS"
+Jun 17 15:22:08 kernel: 0x000003600000-0x000003700000 : "Config"
+Jun 17 15:22:08 kernel: 0x000003700000-0x000003b00000 : "Storage"
+Jun 17 15:22:08 kernel: 0x000003b00000-0x000007f80000 : "RWFS"
+Jun 17 15:22:08 kernel: 0x000000600000-0x000003600000 : "Firmware_Stub"
+Jun 17 15:22:08 kernel: tun: Universal TUN/TAP device driver, 1.6
+Jun 17 15:22:08 kernel: tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Jun 17 15:22:08 kernel: Ralink APSoC Ethernet Driver v3.2.4 (raeth)
+Jun 17 15:22:08 kernel: raeth: PDMA RX ring 512, QDMA TX pool 1024. Max packet size 1536
+Jun 17 15:22:08 kernel: raeth: NAPI & GRO support, weight 64
+Jun 17 15:22:08 kernel: raeth: Byte Queue Limits (BQL) support
+Jun 17 15:22:08 kernel: PPP generic driver version 2.4.2
+Jun 17 15:22:08 kernel: PPP MPPE Compression module registered
+Jun 17 15:22:08 kernel: NET: Registered protocol family 24
+Jun 17 15:22:08 kernel: PPTP driver version 0.8.5
+Jun 17 15:22:08 kernel: nf_conntrack version 0.5.0 (16384 buckets, 32768 max)
+Jun 17 15:22:08 kernel: xt_time: kernel timezone is -0000
+Jun 17 15:22:08 kernel: Bridge firewalling registered
+Jun 17 15:22:08 kernel: gre: GRE over IPv4 demultiplexor driver
+Jun 17 15:22:08 kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Jun 17 15:22:08 kernel: TCP: cubic registered
+Jun 17 15:22:08 kernel: NET: Registered protocol family 10
+Jun 17 15:22:08 kernel: ip6_tables: (C) 2000-2006 Netfilter Core Team
+Jun 17 15:22:08 kernel: IPv6 over IPv4 tunneling driver
+Jun 17 15:22:08 kernel: NET: Registered protocol family 17
+Jun 17 15:22:08 kernel: L2TP core driver, V2.0
+Jun 17 15:22:08 kernel: PPPoL2TP kernel driver, V2.0
+Jun 17 15:22:08 kernel: 8021q: 802.1Q VLAN Support v1.8
+Jun 17 15:22:08 kernel: ASUS NVRAM, v0.08. Available space: 131072. Integrity: OK
+Jun 17 15:22:08 kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:4.
+Jun 17 15:22:08 kernel: Freeing unused kernel memory: 248k freed
+Jun 17 15:22:08 kernel: Algorithmics/MIPS FPU Emulator v1.5
+Jun 17 15:22:08 kernel: register mt_drv
+Jun 17 15:22:08 kernel: PCI: Enabling device 0000:01:00.0 (0000 -> 0002)
+Jun 17 15:22:08 kernel: == pAd = c0581000, size = 2892448, Status=0 ==
+Jun 17 15:22:08 kernel: pAd->PciHif.CSRBaseAddress =0xc0480000, csr_addr=0xc0480000!
+Jun 17 15:22:08 kernel: RTMPInitPCIeDevice():device_id=0x7615
+Jun 17 15:22:08 kernel: mt_pci_chip_cfg(): HWVer=0x8a10, FWVer=0x8a10, pAd->ChipID=0x7615
+Jun 17 15:22:08 kernel: mt_pci_chip_cfg(): HIF_SYS_REV=0x76150001
+Jun 17 15:22:08 kernel: AP Driver version-5.0.4.0
+Jun 17 15:22:08 kernel: RtmpChipOpsHook(223): Not support for HIF_MT yet! MACVersion=0x0
+Jun 17 15:22:08 kernel: mt7615_init()-->
+Jun 17 15:22:08 kernel: Use 1st iPAiLNA default bin.
+Jun 17 15:22:08 kernel: Use 0st /etc_ro/wlan/MT7615E_EEPROM1.bin default bin.
+Jun 17 15:22:08 kernel: <--mt7615_init()
+Jun 17 15:22:08 kernel: <-- RTMPAllocTxRxRingMemory, Status=0
+Jun 17 15:22:08 kernel: MT7615 mismatch with MT7603 as INDEX0
+Jun 17 15:22:08 kernel: MT7615 found as INDEX1
+Jun 17 15:22:08 kernel: [1]MT7615 found by chip
+Jun 17 15:22:08 kernel: register mt7603_drv
+Jun 17 15:22:08 kernel: PCI: Enabling device 0000:02:00.0 (0000 -> 0002)
+Jun 17 15:22:08 kernel: === pAd = c0b01000, size = 1111968 ===
+Jun 17 15:22:08 kernel: <-- RTMPAllocTxRxRingMemory, Status=0, ErrorValue=0x
+Jun 17 15:22:08 kernel: <-- RTMPAllocAdapterBlock, Status=0
+Jun 17 15:22:08 kernel: pAd->CSRBaseAddress =0xc0a00000, csr_addr=0xc0a00000!
+Jun 17 15:22:08 kernel: device_id =0x7603
+Jun 17 15:22:08 kernel: MT7603 AP Driver version 4.1.2.0_20190222
+Jun 17 15:22:08 kernel: mt7603_init()-->
+Jun 17 15:22:08 kernel: mt_bcn_buf_init(224): Not support for HIF_MT yet!
+Jun 17 15:22:08 kernel: <--mt7603_init()
+Jun 17 15:22:08 kernel: load_dev_l1profile()-->
+Jun 17 15:22:08 kernel: match_index_by_chipname() MT7603 found as INDEX0
+Jun 17 15:22:08 kernel: l1set_profile_path() profile remain /etc/Wireless/RT2860/RT2860AP.dat
+Jun 17 15:22:08 kernel: l1set_eeprom_offset() eeprom offset update from 0x40000 to 0x0
+Jun 17 15:22:08 kernel: l1set_eeprom_size() eeprom size update from 0x200 to 0x400
+Jun 17 15:22:08 kernel: l1set_ifname() ifname rename from ra0 to ra
+Jun 17 15:22:08 kernel: l1set_ifname() ifname remain ra
+Jun 17 15:22:08 kernel: l1set_ifname() ifname remain wds
+Jun 17 15:22:08 kernel: l1set_ifname() ifname remain apcli
+Jun 17 15:22:08 kernel: Netfilter messages via NETLINK v0.30.
+Jun 17 15:22:08 kernel: ip_set: protocol 6
+Jun 17 15:22:08 kernel: raeth: HW IP/TCP/UDP checksum RX/TX offload enabled
+Jun 17 15:22:08 kernel: raeth: HW VLAN RX offload enabled
+Jun 17 15:22:08 kernel: raeth: HW VLAN TX offload enabled
+Jun 17 15:22:08 kernel: raeth: HW Scatter/Gather TX offload enabled
+Jun 17 15:22:08 kernel: raeth: HW TCP segmentation offload (TSO) enabled
+Jun 17 15:22:08 kernel: mtk_esw - hw bridge: LLLLL
+Jun 17 15:22:08 kernel: mtk_esw - jumbo frames accept: 9000 bytes
+Jun 17 15:22:08 kernel: mtk_esw - set broadcast storm control rate as: 10 mbps
+Jun 17 15:22:08 kernel: device eth2 entered promiscuous mode
+Jun 17 15:22:08 kernel: rai0: ===> main_virtual_if_open
+Jun 17 15:22:08 kernel: load l1profile succeed!
+Jun 17 15:22:08 kernel: driver_own()::Try to Clear FW Own...
+Jun 17 15:22:08 kernel: driver_own()::Success to clear FW Own
+Jun 17 15:22:08 kernel: APWdsInitialize():WdsEntry Number=4
+Jun 17 15:22:08 kernel: multi_profile_check: DEFAULT_5G_PROFILE is disable, buf1 is 2G profile, buf2 is 5G profile
+Jun 17 15:22:08 kernel: multi_profile_check: buf1: /etc/Wireless/iNIC/iNIC_ap.dat
+Jun 17 15:22:08 kernel: multi_profile_check: buf2: /etc/Wireless/iNIC/iNIC_ap_5G.dat
+Jun 17 15:22:08 kernel: RtmpOSFileOpen(): Error 2 opening /etc/Wireless/iNIC/iNIC_ap_5G.dat
+Jun 17 15:22:08 kernel: Open file "/etc/Wireless/iNIC/iNIC_ap_5G.dat" failed!
+Jun 17 15:22:08 kernel: E2pAccessMode=2
+Jun 17 15:22:08 kernel: SSID[0]=Negrata 5G, EdcaIdx=0
+Jun 17 15:22:08 kernel: SSID[1]=RM2100_GUEST_5G_FBE1, EdcaIdx=0
+Jun 17 15:22:08 kernel: BSS0 PhyMode=48
+Jun 17 15:22:08 kernel: wmode_band_equal(): Band Equal!
+Jun 17 15:22:08 kernel: BandSteering=0
+Jun 17 15:22:08 kernel: [TxPower] BAND0: 100 
+Jun 17 15:22:08 kernel: CalCacheApply = 0 
+Jun 17 15:22:08 kernel: FragThreshold[0]=2346
+Jun 17 15:22:08 kernel: I/F(ra0) NoForwardingMBCast=0
+Jun 17 15:22:08 kernel: I/F(ra1) NoForwardingMBCast=1
+Jun 17 15:22:08 kernel: read_etxbf: ETxBfEnCond = 0
+Jun 17 15:22:08 kernel: read_etxbf: BSSID[0]
+Jun 17 15:22:08 kernel: read_etxbf: MBSS[0] ETxBfEnCond = 0
+Jun 17 15:22:08 kernel: read_etxbf: More BSSID[1]
+Jun 17 15:22:08 kernel: read_etxbf: More MBSS[1] ETxBfEnCond = 0
+Jun 17 15:22:08 kernel: ApCliAPSDCapable[0]=0
+Jun 17 15:22:08 kernel: If/wds0 - PeerPhyOpMode=2
+Jun 17 15:22:08 kernel: If/wds1 - PeerPhyOpMode=2
+Jun 17 15:22:08 kernel: If/wds2 - PeerPhyOpMode=2
+Jun 17 15:22:08 kernel: If/wds3 - PeerPhyOpMode=2
+Jun 17 15:22:08 kernel: APWdsInitialize():WdsEntry Number=4
+Jun 17 15:22:08 kernel: WDS-Enable mode=0
+Jun 17 15:22:08 kernel: HT: WDEV[0] Ext Channel = ABOVE
+Jun 17 15:22:08 kernel: RTMPSetProfileParameters: Mcast frame, i=0,  Mode=2!
+Jun 17 15:22:08 kernel: RTMPSetProfileParameters: Mcast frame, i=0,  MCS=0!
+Jun 17 15:22:08 kernel: WtcSetMaxStaNum: BssidNum:2, MaxStaNum:124 (WdsNum:4, ApcliNum:1, MaxNumChipRept:32), MinMcastWcid:125
+Jun 17 15:22:08 kernel: Top Init Done!
+Jun 17 15:22:08 kernel: Use dev_alloc_skb
+Jun 17 15:22:08 kernel: RX[0] DESC a66f0000 size = 16384
+Jun 17 15:22:08 kernel: RX[1] DESC a66a6000 size = 8192
+Jun 17 15:22:08 kernel: cut_through_init(): ct sw token number = 4095
+Jun 17 15:22:08 kernel: cut_through_token_list_init(): TokenList inited done!id_head/tail=0/4096
+Jun 17 15:22:08 kernel: cut_through_token_list_init(): 87dc6e88,87dc6e88
+Jun 17 15:22:08 kernel: cut_through_token_list_init(): TokenList inited done!id_head/tail=0/4096
+Jun 17 15:22:08 kernel: cut_through_token_list_init(): 87dc6e98,87dc6e98
+Jun 17 15:22:08 kernel: Hif Init Done!
+Jun 17 15:22:08 kernel: ctl->txq = c083dad0
+Jun 17 15:22:08 kernel: ctl->rxq = c083dadc
+Jun 17 15:22:08 kernel: ctl->ackq = c083dae8
+Jun 17 15:22:08 kernel: ctl->kickq = c083daf4
+Jun 17 15:22:08 kernel: ctl->tx_doneq = c083db00
+Jun 17 15:22:08 kernel: ctl->rx_doneq = c083db0c
+Jun 17 15:22:08 kernel: Parsing patch header
+Jun 17 15:22:08 kernel: 	Built date: 20180518100604a
+Jun 17 15:22:08 kernel: 	Platform: ALPS
+Jun 17 15:22:08 kernel: 	HW/SW version: 0x8a108a10
+Jun 17 15:22:08 kernel: 	Patch version: 0x00000010
+Jun 17 15:22:08 kernel: 	Target address: 0x80000, length: 11072
+Jun 17 15:22:08 kernel: patch is not ready && get semaphore success
+Jun 17 15:22:08 kernel: EventGenericEventHandler: CMD Success
+Jun 17 15:22:08 kernel: MtCmdPatchFinishReq
+Jun 17 15:22:08 kernel: EventGenericEventHandler: CMD Success
+Jun 17 15:22:08 kernel: release patch semaphore
+Jun 17 15:22:08 kernel: Parsing CPU 0 fw tailer
+Jun 17 15:22:08 kernel: 	Chip ID: 0x04
+Jun 17 15:22:08 kernel: 	Eco version: 0x00
+Jun 17 15:22:08 kernel: 	Region number: 0x00
+Jun 17 15:22:08 kernel: 	Format version: 0x00
+Jun 17 15:22:08 kernel: 	Ram version: _reserved_
+Jun 17 15:22:08 kernel: 	Built date: 20190307015603
+Jun 17 15:22:08 kernel: 	Common crc: 0x0
+Jun 17 15:22:08 kernel: Parsing tailer region 0
+Jun 17 15:22:08 kernel: 	Feature set: 0x01
+Jun 17 15:22:08 kernel: 	Target address: 0x84000, Download size: 409600
+Jun 17 15:22:08 kernel: Parsing tailer region 1
+Jun 17 15:22:08 kernel: 	Feature set: 0x01
+Jun 17 15:22:08 kernel: 	Target address: 0x209c400, Download size: 43328
+Jun 17 15:22:08 kernel: EventGenericEventHandler: CMD Success
+Jun 17 15:22:08 kernel: MtCmdFwStartReq: override = 0x1, address = 0x84000
+Jun 17 15:22:08 kernel: EventGenericEventHandler: CMD Success
+Jun 17 15:22:08 kernel: Parsing CPU 1 fw tailer
+Jun 17 15:22:08 kernel: 	Chip ID: 0x04
+Jun 17 15:22:08 kernel: 	Eco version: 0x00
+Jun 17 15:22:08 kernel: 	Region number: 0x00
+Jun 17 15:22:08 kernel: 	Format version: 0x00
+Jun 17 15:22:08 kernel: 	Ram version: _reserved_
+Jun 17 15:22:08 kernel: 	Built date: 20190415154149
+Jun 17 15:22:08 kernel: 	Common crc: 0x0
+Jun 17 15:22:08 kernel: Parsing tailer region 0
+Jun 17 15:22:09 kernel: 	Feature set: 0x01
+Jun 17 15:22:09 kernel: 	Target address: 0x90000000, Download size: 122608
+Jun 17 15:22:09 kernel: EventGenericEventHandler: CMD Success
+Jun 17 15:22:09 kernel: MtCmdFwStartReq: override = 0x4, address = 0x0
+Jun 17 15:22:09 kernel: EventGenericEventHandler: CMD Success
+Jun 17 15:22:09 kernel: MCU Init Done!
+Jun 17 15:22:09 kernel: efuse_probe: efuse = 10000212
+Jun 17 15:22:09 kernel: RtmpChipOpsEepromHook::e2p_type=2, inf_Type=5
+Jun 17 15:22:09 kernel: RtmpEepromGetDefault::e2p_dafault=1
+Jun 17 15:22:09 kernel: RtmpChipOpsEepromHook: E2P type(2), E2pAccessMode = 2, E2P default = 1
+Jun 17 15:22:09 kernel: NVM is FLASH mode. dev_idx [1] FLASH OFFSET [0x8000]
+Jun 17 15:22:09 kernel: ^[[34mNICReadEEPROMParameters: EEPROM 0x52 b300^[[m
+Jun 17 15:22:16 kernel: Country Region from e2p = 101
+Jun 17 15:22:16 kernel: mt7615_antenna_default_reset(): TxPath = 4, RxPath = 4
+Jun 17 15:22:16 kernel: RcRadioInit(): DbdcMode=0, ConcurrentBand=1
+Jun 17 15:22:16 kernel: RcRadioInit(): pRadioCtrl=8669ea9c,Band=0,rfcap=3,channel=1,PhyMode=2 extCha=0xf
+Jun 17 15:22:16 kernel: MtSingleSkuLoadParam: RF_LOCKDOWN Feature OFF !!!
+Jun 17 15:22:16 kernel: MtBfBackOffLoadParam: RF_LOCKDOWN Feature OFF !!!
+Jun 17 15:22:16 kernel: EEPROM Init Done!
+Jun 17 15:22:16 kernel: mt_mac_init()-->
+Jun 17 15:22:16 kernel: mt7615_init_mac_cr()-->
+Jun 17 15:22:16 kernel: mt7615_init_mac_cr(): TMAC_TRCR0=0x82783c8c
+Jun 17 15:22:16 kernel: <--mt_mac_init()
+Jun 17 15:22:16 kernel: CmdRxHdrTransBLUpdateRsp::EventExtCmdResult.u4Status = 0x0
+Jun 17 15:22:16 kernel: MAC Init Done!
+Jun 17 15:22:16 kernel: MT7615BBPInit():BBP Initialization.....
+Jun 17 15:22:16 kernel: 	Band 0: valid=1, isDBDC=0, Band=2, CBW=1, CentCh/PrimCh=1/1, prim_ch_idx=0, txStream=2
+Jun 17 15:22:16 kernel: 	Band 1: valid=0, isDBDC=0, Band=0, CBW=0, CentCh/PrimCh=0/0, prim_ch_idx=0, txStream=0
+Jun 17 15:22:16 kernel: MT7615BBPInit() todo
+Jun 17 15:22:16 kernel: PHY Init Done!
+Jun 17 15:22:16 kernel: MtCmdSetMacTxRx:(ret = 0)
+Jun 17 15:22:16 kernel: WifiFwdSet::disabled=0
+Jun 17 15:22:16 kernel: Main bssid = 00:00:00:00:00:00
+Jun 17 15:22:16 kernel: MtCmdSetMacTxRx:(ret = 0)
+Jun 17 15:22:16 kernel: <==== mt_wifi_init, Status=0
+Jun 17 15:22:16 kernel: TxBfModuleEnCtrl:It's not DBDC mode
+Jun 17 15:22:16 kernel: MtCmdEDCCACtrl: BandIdx: 0, EDCCACtrl: 1
+Jun 17 15:22:16 kernel: The new WDS interface MAC = 00:00:00:00:00:00, MacTabMatchWCID = 0
+Jun 17 15:22:16 kernel: Total allocated 4 WDS interfaces!
+Jun 17 15:22:16 kernel: WtcSetMaxStaNum: BssidNum:2, MaxStaNum:124 (WdsNum:4, ApcliNum:1, MaxNumChipRept:32), MinMcastWcid:125
+Jun 17 15:22:16 kernel: RedInit: set CR4/N9 RED Enable to 1.
+Jun 17 15:22:16 kernel: RedInit: RED Initiailize Done.
+Jun 17 15:22:16 kernel: cp_support_is_enabled: set CR4 CP_SUPPORT to Mode 2.
+Jun 17 15:22:16 kernel: RTMP_COM_IoctlHandle -> CMD_RTPRIV_IOCTL_VIRTUAL_INF_UP
+Jun 17 15:22:16 kernel: wifi_sys_open(), wdev idx = 0
+Jun 17 15:22:16 kernel: wdev_attr_update(): wdevId0 = 28:d1:27:d6:fb:e3
+Jun 17 15:22:16 kernel: ^[[1;33m [RadarStateCheck] RD_NORMAL_MODE ^[[m 
+Jun 17 15:22:17 kernel: Caller: 0x860c9208
+Jun 17 15:22:17 kernel: phy_mode=48, ch=165, wdev_type=1
+Jun 17 15:22:17 kernel: ht_cap->HtCapInfo: ldpc=0,ch_width=0,gf=0,sgi20=1,sgi40=0,tx_stbc=1,rx_stbc=1,amsdu_size=1
+Jun 17 15:22:17 kernel: ht_cap->HtCapParm: mdpu_density=5, ampdu_factor=3
+Jun 17 15:22:17 kernel: AP inf up for ra_0(func_idx) OmacIdx=0
+Jun 17 15:22:17 kernel: AsicRadioOnOffCtrl(): DbdcIdx=0 RadioOn
+Jun 17 15:22:17 kernel: ApAutoChannelAtBootUp----------------->
+Jun 17 15:22:17 kernel: ApAutoChannelAtBootUp: AutoChannelBootup = 0, pAd: c0581000, ifname: rai0, channel: 165
+Jun 17 15:22:17 kernel: ApAutoChannelAtBootUp<-----------------
+Jun 17 15:22:17 kernel: ^[[41m ap_run_at_boot() : ACS is disable !!^[[m
+Jun 17 15:22:17 kernel: [PMF]APPMFInit:: apidx=0, MFPC=0, MFPR=0, SHA256=0
+Jun 17 15:22:17 kernel: wifi_sys_linkup(), wdev idx = 0
+Jun 17 15:22:17 kernel: wtc_acquire_groupkey_wcid: Found a non-occupied wtbl_idx:127 for WDEV_TYPE:1
+Jun 17 15:22:17 kernel:  LinkToOmacIdx = 0, LinkToWdevType = 1
+Jun 17 15:22:17 kernel: bssUpdateBmcMngRate (BSS_INFO_BROADCAST_INFO), CmdBssInfoBmcRate.u2BcTransmit= 8192, CmdBssInfoBmcRate.u2McTransmit = 8192
+Jun 17 15:22:17 kernel: UpdateBeaconHandler, BCN_UPDATE_INIT, OmacIdx = 0
+Jun 17 15:22:17 kernel: APStartUpForMbss: BssIndex = 0 channel = 165
+Jun 17 15:22:17 kernel: MtCmdTxPowerDropCtrl: ucPowerDrop: 100, BandIdx: 0
+Jun 17 15:22:17 kernel: device rai0 entered promiscuous mode
+Jun 17 15:22:17 kernel: load_dev_l1profile()-->
+Jun 17 15:22:17 kernel: l1set_profile_path() profile remain /etc/Wireless/RT2860/RT2860AP.dat
+Jun 17 15:22:17 kernel: l1set_eeprom_offset() eeprom offset remain 0x0
+Jun 17 15:22:17 kernel: l1set_eeprom_size() eeprom size remain 0x400
+Jun 17 15:22:17 kernel: l1set_ifname() ifname rename from ra0 to ra
+Jun 17 15:22:17 kernel: l1set_ifname() ifname remain ra
+Jun 17 15:22:17 kernel: l1set_ifname() ifname remain wds
+Jun 17 15:22:17 kernel: l1set_ifname() ifname remain apcli
+Jun 17 15:22:17 kernel: TX_BCN DESC a5fa9000 size = 320
+Jun 17 15:22:17 kernel: RX[0] DESC a5fab000 size = 2048
+Jun 17 15:22:17 kernel: RX[1] DESC a5fac000 size = 2048
+Jun 17 15:22:17 kernel: E2pAccessMode=2
+Jun 17 15:22:17 kernel: cfg_mode=6
+Jun 17 15:22:17 kernel: wmode_band_equal(): Band Equal!
+Jun 17 15:22:18 kernel: Key1Str is Invalid key length(0) or Type(0)
+Jun 17 15:22:18 kernel: Key2Str is Invalid key length(0) or Type(0)
+Jun 17 15:22:18 kernel: Key3Str is Invalid key length(0) or Type(0)
+Jun 17 15:22:18 kernel: Key4Str is Invalid key length(0) or Type(0)
+Jun 17 15:22:18 kernel: FW Version:CL173766_R
+Jun 17 15:22:18 kernel: FW Build Date:20171110105932
+Jun 17 15:22:18 kernel: CmdAddressLenReq:(ret = 0)
+Jun 17 15:22:18 kernel: CmdFwStartReq: override = 1, address = 1048576
+Jun 17 15:22:18 kernel: CmdStartDLRsp: WiFI FW Download Success
+Jun 17 15:22:18 kernel: AsicDMASchedulerInit(): DMA Scheduler Mode=0(LMAC)
+Jun 17 15:22:18 kernel: efuse_probe: efuse = 10000002
+Jun 17 15:22:18 kernel: RtmpChipOpsEepromHook::e2p_type=2, inf_Type=5
+Jun 17 15:22:18 kernel: RtmpEepromGetDefault::e2p_dafault=1
+Jun 17 15:22:18 kernel: RtmpChipOpsEepromHook: E2P type(2), E2pAccessMode = 2, E2P default = 1
+Jun 17 15:22:18 kernel: NVM is FLASH mode, flash_offset = 0x40000
+Jun 17 15:22:18 kernel: 1. Phy Mode = 8
+Jun 17 15:22:18 kernel: @@@  NICReadEEPROMParameters : pAd->FWLoad=0 
+Jun 17 15:22:18 kernel: Country Region from e2p = ffff
+Jun 17 15:22:18 kernel: tssi_1_target_pwr_g_band = 12
+Jun 17 15:22:18 kernel: 2. Phy Mode = 8
+Jun 17 15:22:18 kernel: 3. Phy Mode = 8
+Jun 17 15:22:18 kernel: NICInitPwrPinCfg(14): Not support for HIF_MT yet!
+Jun 17 15:22:18 kernel: NICInitializeAsic(588): Not support rtmp_mac_sys_reset () for HIF_MT yet!
+Jun 17 15:22:18 kernel: mt_mac_init()-->
+Jun 17 15:22:18 kernel: mt7603_init_mac_cr()-->
+Jun 17 15:22:18 kernel: AsicSetMacMaxLen(1907): Set the Max RxPktLen=1024!
+Jun 17 15:22:18 kernel: <--mt_mac_init()
+Jun 17 15:22:18 kernel: 	WTBL Segment 1 info:
+Jun 17 15:22:18 kernel: 		MemBaseAddr/FID:0x28000/0
+Jun 17 15:22:18 kernel: 		EntrySize/Cnt:32/128
+Jun 17 15:22:18 kernel: 	WTBL Segment 2 info:
+Jun 17 15:22:18 kernel: 		MemBaseAddr/FID:0x40000/0
+Jun 17 15:22:18 kernel: 		EntrySize/Cnt:64/128
+Jun 17 15:22:18 kernel: 	WTBL Segment 3 info:
+Jun 17 15:22:18 kernel: 		MemBaseAddr/FID:0x42000/64
+Jun 17 15:22:18 kernel: 		EntrySize/Cnt:64/128
+Jun 17 15:22:18 kernel: 	WTBL Segment 4 info:
+Jun 17 15:22:18 kernel: 		MemBaseAddr/FID:0x44000/128
+Jun 17 15:22:18 kernel: 		EntrySize/Cnt:32/128
+Jun 17 15:22:18 kernel: AntCfgInit(2689): Not support for HIF_MT yet!
+Jun 17 15:22:18 kernel: MCS Set = ff ff 00 00 01
+Jun 17 15:22:18 kernel: AsicSetRalinkBurstMode(4325): Not support for HIF_MT yet!
+Jun 17 15:22:18 kernel: RTMPSetPiggyBack(943): Not support for HIF_MT yet!
+Jun 17 15:22:20 kernel: AsicSetTxPreamble(4312): Not support for HIF_MT yet!
+Jun 17 15:22:20 kernel: The 4-BSSID mode is enabled, the BSSID byte5 MUST be the multiple of 4
+Jun 17 15:22:20 kernel: AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0xa0
+Jun 17 15:22:20 kernel: Main bssid = 28:d1:27:d6:fb:e2
+Jun 17 15:22:20 kernel: <==== rt28xx_init, Status=0
+Jun 17 15:22:20 kernel: @@@ ed_monitor_exit : ===>
+Jun 17 15:22:20 kernel: @@@ ed_monitor_exit : <===
+Jun 17 15:22:20 kernel: mt7603_set_ed_cca: TURN OFF EDCCA  mac 0x10618 = 0x8564267c, EDCCA_Status=0
+Jun 17 15:22:20 kernel: WiFi Startup Cost (ra0): 3.020s
+Jun 17 15:22:20 kernel: device ra0 entered promiscuous mode
+Jun 17 15:22:21 kernel: br0: port 3(ra0) entered forwarding state
+Jun 17 15:22:21 kernel: br0: port 2(rai0) entered forwarding state
+Jun 17 15:22:21 kernel: br0: port 1(eth2) entered forwarding state
+Jun 17 15:22:21 kernel: mtk_esw - software IGMP/MLD snooping: 1
+Jun 17 15:22:22 httpd[389]: Server listening port 80 (HTTP).
+Jun 17 15:22:22 sshd[394]: Server listening on :: port 22.
+Jun 17 15:22:22 sshd[394]: Server listening on 0.0.0.0 port 22.
+Jun 17 15:22:22 kernel: Load Ralink WDG Timer Module
+Jun 17 15:22:23 kernel: br0: port 3(ra0) entered forwarding state
+Jun 17 15:22:23 kernel: br0: port 2(rai0) entered forwarding state
+Jun 17 15:22:23 kernel: br0: port 1(eth2) entered forwarding state
+Jun 17 15:22:32 NTP Client: Synchronizing time to time.cloudflare.com.
+Jun 17 15:45:04 NTP Client: System time changed, offset: 1350.386736s
